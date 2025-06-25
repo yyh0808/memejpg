@@ -1,0 +1,204 @@
+# Next Theme Configuration
+# Optimized for MemeJPG Blog
+
+# Theme Scheme
+scheme: Pisces
+
+# Dark Mode
+darkmode: false
+
+# Menu Configuration
+menu:
+  home: / || fa fa-home
+  archives: /archives/ || fa fa-archive
+  tags: /tags/ || fa fa-tags
+  categories: /categories/ || fa fa-th
+
+# Menu Settings
+menu_settings:
+  icons: true
+  badges: false
+
+# Sidebar Settings
+sidebar:
+  position: left
+  display: post
+  padding: 18
+  offset: 12
+
+# Avatar Settings
+avatar:
+  url: /images/meme-avatar.png
+  rounded: true
+  rotated: false
+
+# Social Links
+social:
+  GitHub: https://github.com/memejpg || fab fa-github
+  E-Mail: mailto:contact@memejpg.com || fa fa-envelope
+
+# Social Icons
+social_icons:
+  enable: true
+  icons_only: false
+  transition: false
+
+# Post Settings
+post_meta:
+  item_text: true
+  created_at: true
+  updated_at:
+    enable: false
+  categories: true
+
+# Post Edit
+post_edit:
+  enable: false
+
+# Reading Progress
+reading_progress:
+  enable: true
+  position: top
+  color: "#37c6c0"
+  height: 3px
+
+# Bookmark
+bookmark:
+  enable: false
+
+# GitHub Banner
+github_banner:
+  enable: false
+
+# Font Settings
+font:
+  enable: false
+
+# 代码高亮
+codeblock:
+  theme:
+    light: default
+    dark: stackoverflow-dark
+  prism:
+    light: prism
+    dark: prism-dark
+  copy_button:
+    enable: true
+    show_result: true
+    style: flat
+
+# 返回顶部
+back2top:
+  enable: true
+  sidebar: false
+  scrollpercent: true
+
+# 阅读更多
+excerpt_description: true
+
+# 自动摘要
+auto_excerpt:
+  enable: true
+  length: 150
+
+# 标签图标
+tag_icon: true
+
+# 打赏
+reward_settings:
+  enable: false
+
+# 相关文章
+related_posts:
+  enable: false
+
+# 文章导航
+post_navigation:
+  enable: true
+  reverse: false
+
+# Disqus评论
+disqus:
+  enable: false
+
+# 本地搜索
+local_search:
+  enable: true
+  trigger: auto
+  top_n_per_article: 1
+  unescape: false
+  preload: false
+
+# 数学公式
+math:
+  mathjax:
+    enable: false
+  katex:
+    enable: false
+
+# Mermaid图表
+mermaid:
+  enable: false
+
+# 图片懒加载
+lazyload: true
+
+# 图片缩放
+mediumzoom: true
+
+# 图片查看器
+fancybox: true
+
+# 页脚设置
+footer:
+  since: 2024
+  icon:
+    name: fa fa-heart
+    animated: true
+    color: "#ff0000"
+  copyright: MemeJPG
+  powered:
+    enable: true
+    version: true
+  theme:
+    enable: true
+    version: true
+
+# SEO优化
+seo: true
+
+# 索引生成
+index_with_subtitle: true
+
+# 谷歌分析
+google_analytics:
+  tracking_id: # 在部署时添加
+
+# 百度分析
+baidu_analytics: # 在部署时添加
+
+# 站点地图
+sitemap:
+  path: sitemap.xml
+  template: ./sitemap_template.xml
+  rel: false
+  tags: true
+  categories: true
+
+# 机器人文件
+robots:
+  useragent: "*"
+  disallow:
+    - /js/
+    - /css/
+    - /fonts/
+  allow:
+    - /
+  sitemap: /sitemap.xml
+
+# 压缩
+minify: true
+
+# 缓存
+cache:
+  enable: true
