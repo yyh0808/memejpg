@@ -172,7 +172,7 @@ index_with_subtitle: true
 
 # 谷歌分析
 google_analytics:
-  tracking_id: # 在部署时添加
+  tracking_id: G-XNLKQRTCTK
 
 # 百度分析
 baidu_analytics: # 在部署时添加
