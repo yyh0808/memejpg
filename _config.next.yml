@@ -10,6 +10,7 @@ darkmode: false
 # Menu Configuration
 menu:
   home: / || fa fa-home
+  tools: /tools/ || fa fa-tools
   archives: /archives/ || fa fa-archive
   tags: /tags/ || fa fa-tags
   categories: /categories/ || fa fa-th
@@ -28,13 +29,14 @@ sidebar:
 
 # Avatar Settings
 avatar:
-  url: /images/meme-avatar.png
+  url: /images/avatar.png
   rounded: true
   rotated: false
 
 # Social Links
 social:
-  GitHub: https://github.com/memejpg || fab fa-github
+  GitHub: https://github.com/yyh0808/memejpg || fab fa-github
+  Website: https://memejpg.com || fa fa-globe
   E-Mail: mailto:contact@memejpg.com || fa fa-envelope
 
 # Social Icons
